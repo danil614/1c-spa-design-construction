@@ -44,4 +44,15 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Маркетинг</subsystems>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <commonPictures>CommonPicture.Маркетинг</commonPictures>
+  <commonPictures>CommonPicture.НСИ</commonPictures>
+  <commonPictures>CommonPicture.Продажи</commonPictures>
+  <catalogs>Catalog.Должности</catalogs>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <enums>Enum.ВидКонтактнойИнформации</enums>
+  <enums>Enum.Пол</enums>
 </mdclass:Configuration>
