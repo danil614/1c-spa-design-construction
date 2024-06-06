@@ -12,4 +12,5 @@
   </picture>
   <content>Document.УстановкаЦен</content>
   <content>Report.ТекущиеЦеныНоменклатуры</content>
+  <content>Report.СоставУслуг</content>
 </mdclass:Subsystem>

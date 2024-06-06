@@ -61,6 +61,7 @@
   <enums>Enum.ВидНоменклатуры</enums>
   <enums>Enum.ЕдиницаИзмерения</enums>
   <enums>Enum.Пол</enums>
+  <reports>Report.СоставУслуг</reports>
   <reports>Report.ТекущиеЦеныНоменклатуры</reports>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
 </mdclass:Configuration>
