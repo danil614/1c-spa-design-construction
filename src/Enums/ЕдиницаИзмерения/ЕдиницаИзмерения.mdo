@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b30ad13-882e-47f2-a621-295b5e649a14">
+  <producedTypes>
+    <refType typeId="f45085a6-0e1c-4d50-af65-d25c174e7bb7" valueTypeId="d111025b-f7ee-4ad3-8633-54c518e00ba7"/>
+    <listType typeId="15559615-7b11-4bb2-bbb6-2ff89dbe510b" valueTypeId="b0ba3f91-5505-43cc-bf1e-140edb88bd1f"/>
+    <managerType typeId="1d7d77b9-b1f6-4d93-9ca7-49dc371016d4" valueTypeId="6a89f755-d0ce-4ab5-b3f7-322071a08617"/>
+  </producedTypes>
+  <name>ЕдиницаИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единица измерения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b2d6acb6-90da-4b33-b8e3-4d61fb383958">
+    <name>КвадратныйМетр</name>
+    <synonym>
+      <key>ru</key>
+      <value>м²</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8c94a66c-a7b6-4c61-b5e5-de63b137c14e">
+    <name>Килограмм</name>
+    <synonym>
+      <key>ru</key>
+      <value>кг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="63163ffb-7e22-43f1-b021-20e4d3d5b1fa">
+    <name>КубическийМетр</name>
+    <synonym>
+      <key>ru</key>
+      <value>м³</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="01f888c4-affa-43cc-b474-0880ff59e666">
+    <name>Метр</name>
+    <synonym>
+      <key>ru</key>
+      <value>метр</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d2c799bb-1d8c-4180-95b3-f16ad7211d61">
+    <name>Тонна</name>
+    <synonym>
+      <key>ru</key>
+      <value>т</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a423e529-ef5a-469c-af09-f800722e8542">
+    <name>Час</name>
+    <synonym>
+      <key>ru</key>
+      <value>час</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9a175b99-8afd-43c2-8356-98c62f820e6b">
+    <name>Штука</name>
+    <synonym>
+      <key>ru</key>
+      <value>шт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

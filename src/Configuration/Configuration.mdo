@@ -44,15 +44,22 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.Маркетинг</subsystems>
   <subsystems>Subsystem.НСИ</subsystems>
   <subsystems>Subsystem.Продажи</subsystems>
+  <commonPictures>CommonPicture.Администрирование</commonPictures>
   <commonPictures>CommonPicture.Маркетинг</commonPictures>
   <commonPictures>CommonPicture.НСИ</commonPictures>
   <commonPictures>CommonPicture.Продажи</commonPictures>
   <catalogs>Catalog.Должности</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
+  <documents>Document.УстановкаЦен</documents>
   <enums>Enum.ВидКонтактнойИнформации</enums>
+  <enums>Enum.ВидНоменклатуры</enums>
+  <enums>Enum.ЕдиницаИзмерения</enums>
   <enums>Enum.Пол</enums>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
 </mdclass:Configuration>

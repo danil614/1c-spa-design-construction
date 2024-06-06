@@ -12,11 +12,11 @@
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
-  <enumValues uuid="725dea94-c8e7-468c-9d45-16b1c3fff4a6">
-    <name>НомерТелефона</name>
+  <enumValues uuid="1c52df14-a74a-4616-97d9-99fac209510d">
+    <name>Адрес</name>
     <synonym>
       <key>ru</key>
-      <value>Номер телефона</value>
+      <value>Адрес</value>
     </synonym>
   </enumValues>
   <enumValues uuid="56efbe08-cb6e-4b22-854f-924377b35866">
@@ -26,11 +26,11 @@
       <value>Адрес электронной почты</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="1c52df14-a74a-4616-97d9-99fac209510d">
-    <name>Адрес</name>
+  <enumValues uuid="725dea94-c8e7-468c-9d45-16b1c3fff4a6">
+    <name>НомерТелефона</name>
     <synonym>
       <key>ru</key>
-      <value>Адрес</value>
+      <value>Номер телефона</value>
     </synonym>
   </enumValues>
   <enumValues uuid="429352e6-3a94-476b-8039-8415487c963e">

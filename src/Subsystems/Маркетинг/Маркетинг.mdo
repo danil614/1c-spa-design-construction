@@ -10,4 +10,5 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Маркетинг</picture>
   </picture>
+  <content>Document.УстановкаЦен</content>
 </mdclass:Subsystem>
