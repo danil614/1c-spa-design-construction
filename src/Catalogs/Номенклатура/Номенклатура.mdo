@@ -90,6 +90,12 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
+      <choiceParameters>
+        <name>Отбор.ВидНоменклатуры</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.ВидНоменклатуры.EnumValue.Материал</value>
+        </value>
+      </choiceParameters>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -102,7 +108,8 @@
       <type>
         <types>Number</types>
         <numberQualifiers>
-          <precision>6</precision>
+          <precision>10</precision>
+          <scale>2</scale>
           <nonNegative>true</nonNegative>
         </numberQualifiers>
       </type>

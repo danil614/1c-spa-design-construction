@@ -10,4 +10,8 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Продажи</picture>
   </picture>
+  <content>Document.ОпросКлиента</content>
+  <content>Document.ЗаказКлиента</content>
+  <content>Document.ПлатежныйДокумент</content>
+  <content>Document.АктСдачиПриемки</content>
 </mdclass:Subsystem>

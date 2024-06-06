@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2330ed0-1829-4bba-9cc6-df26b4c0054c">
+  <producedTypes>
+    <objectType typeId="ea6d9765-9c3d-41b4-a5b2-308065cabf5e" valueTypeId="6a523d06-1acb-40f9-aafa-1c0eb5700746"/>
+    <refType typeId="8af499ff-de50-48ee-a2a9-f5bcb10a4669" valueTypeId="51127c3e-ed87-46d4-92fe-3cf42bad0bfc"/>
+    <selectionType typeId="44fec592-2563-4c0b-84f5-96b35107245d" valueTypeId="42e5a0b6-7c81-4ce2-a9ee-4d842d7c786f"/>
+    <listType typeId="19bfabd4-43f8-41e4-8022-64b24a2a39f8" valueTypeId="72346a33-5e62-428d-99e8-95b56fd78e26"/>
+    <managerType typeId="67c5d358-bb08-4537-8d17-fdadc941e0bd" valueTypeId="f03360e5-4a83-4463-be83-f6859b3be956"/>
+  </producedTypes>
+  <name>АктСдачиПриемки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Акт сдачи-приемки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.АктСдачиПриемки.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Акты сдачи-приемки</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="5a35e55f-9a7c-4780-825c-53db96143b8a">
+    <name>ЗаказКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ клиента</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказКлиента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="29350d33-6470-4054-8b94-68ed1b3ffc61">
+    <name>ДатаОкончанияРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания работ</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f22d908b-7127-42bb-8850-03ab991b1a28">
+    <name>АктПодписан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт подписан</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="94ce3a9b-788d-4706-87f5-9f3dd05eb8ac">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

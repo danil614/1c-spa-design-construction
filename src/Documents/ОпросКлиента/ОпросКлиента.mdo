@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29019615-a5c2-46d9-8a6c-74630a861fe5">
+  <producedTypes>
+    <objectType typeId="f4c15d44-4fe4-4202-9bf5-bf7fd24266f9" valueTypeId="9494717b-cbf8-4cd8-9a89-f3fc6bd554f9"/>
+    <refType typeId="1adaee01-29c5-4391-9681-7b01256b8f69" valueTypeId="d8c218a0-7f2b-42b8-a1c2-582e99c6cc6f"/>
+    <selectionType typeId="a2b52867-c6ef-471d-8b3b-cded0c6900c0" valueTypeId="46d547d8-deff-4cb2-b227-905af3dc5657"/>
+    <listType typeId="f57d6eaf-8bad-41aa-8f48-7c21479cb241" valueTypeId="780572ed-41ce-418d-b799-13257c98132b"/>
+    <managerType typeId="89c87773-ef5d-4d4d-b004-ffe112f483ed" valueTypeId="6229433d-c6e0-4446-b47b-debde05c2464"/>
+  </producedTypes>
+  <name>ОпросКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Опрос клиента</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ОпросКлиента.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Опросы клиентов</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="3a3c9df5-4e7e-4f6a-b5e6-9aa59f7616da">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a12b1161-aa15-4c48-b58f-1ed39d31e988">
+    <name>НазваниеПроекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Название проекта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9cd905e9-7669-4cb4-9266-a060c93f30d2">
+    <name>Бюджет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бюджет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c230c114-bdb2-4ac0-a4f6-078b7ad801e9">
+    <name>ОписаниеТребований</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание требований</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

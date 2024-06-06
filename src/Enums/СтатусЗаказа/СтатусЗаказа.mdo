@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76d83cb5-272f-44f3-845c-af37934b4706">
+  <producedTypes>
+    <refType typeId="a1074d8b-9a1a-49c4-8313-bb2f5512bee4" valueTypeId="c282e566-b51c-43e5-9f83-31ab29e126aa"/>
+    <listType typeId="2d335c34-ce63-41c4-918b-b17e3bda4351" valueTypeId="e2180848-4f8f-43cf-88a6-cda57af64c2f"/>
+    <managerType typeId="14316cf6-05da-41ac-9d95-0a3f6b338d11" valueTypeId="956e0caa-6ba9-4159-8a49-953c981888ce"/>
+  </producedTypes>
+  <name>СтатусЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус заказа</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="69f6e9b4-aee0-4343-9bd0-5dd353975469">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a1c03fbc-a8b0-4580-aac1-aa7ad56d976b">
+    <name>Согласование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2c095dff-b689-401f-95a2-5dfe285cdf5f">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9c62e59d-beea-4506-afe4-ad34c20c6839">
+    <name>Проверка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="70e50abd-9af6-40ac-9730-a9e128a75b53">
+    <name>Завершен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

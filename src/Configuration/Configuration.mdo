@@ -56,11 +56,17 @@
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
+  <documents>Document.АктСдачиПриемки</documents>
+  <documents>Document.ЗаказКлиента</documents>
+  <documents>Document.ОпросКлиента</documents>
+  <documents>Document.ПлатежныйДокумент</documents>
   <documents>Document.УстановкаЦен</documents>
   <enums>Enum.ВидКонтактнойИнформации</enums>
   <enums>Enum.ВидНоменклатуры</enums>
   <enums>Enum.ЕдиницаИзмерения</enums>
   <enums>Enum.Пол</enums>
+  <enums>Enum.СтатусЗаказа</enums>
+  <enums>Enum.СтатусЭтапа</enums>
   <reports>Report.СоставУслуг</reports>
   <reports>Report.ТекущиеЦеныНоменклатуры</reports>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
