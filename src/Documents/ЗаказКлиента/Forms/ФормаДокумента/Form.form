@@ -1215,7 +1215,6 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <changeRowSet>true</changeRowSet>
-        <changeRowOrder>true</changeRowOrder>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <autoMaxRowsCount>true</autoMaxRowsCount>
@@ -1927,7 +1926,6 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <changeRowSet>true</changeRowSet>
-        <changeRowOrder>true</changeRowOrder>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <autoMaxRowsCount>true</autoMaxRowsCount>
@@ -1981,20 +1979,102 @@
     <items xsi:type="form:FormGroup">
       <name>ГруппаГрафикОплат</name>
       <id>96</id>
-      <items xsi:type="form:FormField">
-        <name>КоличествоПлатежей</name>
-        <id>16</id>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаКнопкиГрафикОплат</name>
+        <id>172</id>
+        <items xsi:type="form:FormField">
+          <name>РазмерПлатежа</name>
+          <id>174</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>РазмерПлатежа</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>РазмерПлатежаРасширеннаяПодсказка</name>
+            <id>176</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>РазмерПлатежаКонтекстноеМеню</name>
+            <id>175</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+          </extInfo>
+        </items>
+        <items xsi:type="form:Button">
+          <name>СформироватьГрафикОплат</name>
+          <id>170</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>СформироватьГрафикОплатРасширеннаяПодсказка</name>
+            <id>171</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualButton</type>
+          <commandName>Form.Command.СформироватьГрафикОплат</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.КоличествоПлатежей</segments>
-        </dataPath>
+        <title>
+          <key>ru</key>
+          <value>Группа1</value>
+        </title>
         <extendedTooltip>
-          <name>КоличествоПлатежейРасширеннаяПодсказка</name>
-          <id>18</id>
+          <name>ГруппаКнопкиГрафикОплатРасширеннаяПодсказка</name>
+          <id>173</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2007,28 +2087,14 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <contextMenu>
-          <name>КоличествоПлатежейКонтекстноеМеню</name>
-          <id>17</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <type>InputField</type>
-        <editMode>EnterOnInput</editMode>
-        <showInHeader>true</showInHeader>
-        <headerHorizontalAlign>Left</headerHorizontalAlign>
-        <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:InputFieldExtInfo">
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <wrap>true</wrap>
-          <chooseType>true</chooseType>
-          <typeDomainEnabled>true</typeDomainEnabled>
-          <textEdit>true</textEdit>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>AlwaysHorizontal</group>
+          <behavior>Auto</behavior>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:Table">
@@ -2342,7 +2408,6 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <changeRowSet>true</changeRowSet>
-        <changeRowOrder>true</changeRowOrder>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <autoMaxRowsCount>true</autoMaxRowsCount>
@@ -2629,6 +2694,28 @@
     <main>true</main>
     <savedData>true</savedData>
   </attributes>
+  <attributes>
+    <name>РазмерПлатежа</name>
+    <title>
+      <key>ru</key>
+      <value>Примерный размер платежа</value>
+    </title>
+    <id>2</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>СформироватьСписокМатериалов</name>
     <title>
@@ -2696,7 +2783,7 @@
     <name>РассчитатьСуммуЭтапов</name>
     <title>
       <key>ru</key>
-      <value>Рассчитать сумму этапов</value>
+      <value>Рассчитать стоимость этапов</value>
     </title>
     <id>4</id>
     <use>
@@ -2745,11 +2832,32 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.ExecuteTask</picture>
+      <picture>StdPicture.DataCompositionNewNestedScheme</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>РассчитатьСуммуЗаказа</name>
+      </handler>
+    </action>
+    <representation>TextPicture</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>СформироватьГрафикОплат</name>
+    <title>
+      <key>ru</key>
+      <value>Сформировать график оплат</value>
+    </title>
+    <id>7</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.ExecuteTask</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СформироватьГрафикОплат</name>
       </handler>
     </action>
     <representation>TextPicture</representation>

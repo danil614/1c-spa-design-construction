@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2d7171c-eb43-464c-a413-17dcd632acfb">
+  <producedTypes>
+    <managerType typeId="e7c430b5-f21c-400c-b50a-4e938cee2f39" valueTypeId="ec8a4bf4-f7a4-4ca3-abee-fbff8cf3de5b"/>
+    <valueManagerType typeId="6df94a71-0566-4ff8-8e57-be1f8e45b7e1" valueTypeId="3857614b-9c8e-4ce0-b6d5-f67ab9b4fb14"/>
+    <valueKeyType typeId="a6e16cf8-67d7-4828-8bce-caf65eb46648" valueTypeId="f3efdbb5-8a7d-45c9-ae69-37e95692ca3a"/>
+  </producedTypes>
+  <name>КоличествоДнейДоНачалаЭтапаДляОплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество дней до начала этапа для оплаты</value>
+  </synonym>
+  <comment>Определяет, за какое количество дней должен быть проведен платеж до начала этапа</comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>4</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

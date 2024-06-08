@@ -15,4 +15,5 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Администрирование</picture>
   </picture>
+  <content>Constant.КоличествоДнейДоНачалаЭтапаДляОплаты</content>
 </mdclass:Subsystem>

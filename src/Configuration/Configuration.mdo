@@ -54,6 +54,7 @@
   <commonPictures>CommonPicture.Продажи</commonPictures>
   <commonModules>CommonModule.ПолучениеЦенНоменклатурыВызовСервера</commonModules>
   <commonModules>CommonModule.РасчетСуммыВызовСервера</commonModules>
+  <constants>Constant.КоличествоДнейДоНачалаЭтапаДляОплаты</constants>
   <catalogs>Catalog.Должности</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
