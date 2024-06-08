@@ -52,6 +52,8 @@
   <commonPictures>CommonPicture.Маркетинг</commonPictures>
   <commonPictures>CommonPicture.НСИ</commonPictures>
   <commonPictures>CommonPicture.Продажи</commonPictures>
+  <commonModules>CommonModule.ПолучениеЦенНоменклатурыВызовСервера</commonModules>
+  <commonModules>CommonModule.РасчетСуммыВызовСервера</commonModules>
   <catalogs>Catalog.Должности</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>

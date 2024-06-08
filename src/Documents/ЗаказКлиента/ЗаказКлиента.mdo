@@ -139,10 +139,10 @@
     </synonym>
     <fillChecking>ShowError</fillChecking>
     <attributes uuid="272f10ff-4387-43b7-851e-45928547b587">
-      <name>Номенклатура</name>
+      <name>Услуга</name>
       <synonym>
         <key>ru</key>
-        <value>Номенклатура</value>
+        <value>Услуга</value>
       </synonym>
       <type>
         <types>CatalogRef.Номенклатура</types>
@@ -180,10 +180,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="9ed3acd5-1eb9-4f2c-be48-eeee7268e1a3">
-      <name>Цена</name>
+      <name>ЦенаУслуги</name>
       <synonym>
         <key>ru</key>
-        <value>Цена</value>
+        <value>Цена услуги</value>
       </synonym>
       <type>
         <types>Number</types>
@@ -199,10 +199,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="10111ce0-417f-43bf-b4a2-09f9748f4bd5">
-      <name>Сумма</name>
+      <name>СуммаУслуги</name>
       <synonym>
         <key>ru</key>
-        <value>Сумма</value>
+        <value>Сумма услуги</value>
       </synonym>
       <type>
         <types>Number</types>
@@ -267,6 +267,25 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="51df4286-9fd2-4b8d-a695-ea773c338256">
+      <name>СтоимостьЭтапа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стоимость этапа</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <attributes uuid="1c2373e3-16e1-45bb-b9fc-55aa6796b07f">
       <name>СтатусЭтапа</name>
       <synonym>
@@ -314,10 +333,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="3e90fe27-7b28-4031-80c3-e6fe80c52569">
-      <name>Номенклатура</name>
+      <name>Материал</name>
       <synonym>
         <key>ru</key>
-        <value>Номенклатура</value>
+        <value>Материал</value>
       </synonym>
       <type>
         <types>CatalogRef.Номенклатура</types>
