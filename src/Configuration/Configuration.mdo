@@ -71,6 +71,7 @@
   <enums>Enum.СтатусЗаказа</enums>
   <enums>Enum.СтатусЭтапа</enums>
   <reports>Report.СоставУслуг</reports>
+  <reports>Report.ТекущиеСтатусыЗаказов</reports>
   <reports>Report.ТекущиеЦеныНоменклатуры</reports>
   <informationRegisters>InformationRegister.ИсторияСтатусовЗаказов</informationRegisters>
   <informationRegisters>InformationRegister.ИсторияСтатусовЭтапов</informationRegisters>
