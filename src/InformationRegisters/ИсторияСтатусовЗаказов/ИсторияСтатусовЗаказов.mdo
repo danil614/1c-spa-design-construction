@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b414b9d-0a31-4835-8dec-0813d3550dbc">
+  <producedTypes>
+    <selectionType typeId="1dcee79f-0709-408f-92e4-158df0eec4eb" valueTypeId="bc3d8efa-094f-45e7-8b93-4c5ab2e23e24"/>
+    <listType typeId="ef2e3509-0563-4f4c-9893-01d370e40b4c" valueTypeId="d6fb2822-ede3-49b3-852b-6babb7d6781a"/>
+    <managerType typeId="1a9e6094-6ddb-4e59-915b-828ad5037b31" valueTypeId="0693215c-d02b-46ee-8113-b27fad8394bf"/>
+    <recordSetType typeId="5026918c-ace2-4b2c-8dcd-a62db1451bc1" valueTypeId="0f34ea58-bc1c-4972-be2a-0c65bda8bb84"/>
+    <recordKeyType typeId="008a0a4a-6d3c-4af2-9b38-832cd1d08b11" valueTypeId="5d1439c6-17e6-47e9-9f37-2be0c75ffeb6"/>
+    <recordType typeId="1833b4e6-3497-40b9-994f-d66c392270e3" valueTypeId="cc9d05a2-dc90-4eae-a94e-edb8abf60733"/>
+    <recordManagerType typeId="2388fef0-ac8b-423b-8b58-494fd980c21b" valueTypeId="1e2f9fc4-ee12-4147-ad7f-9e1f963032d1"/>
+  </producedTypes>
+  <name>ИсторияСтатусовЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>История статусов заказов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="bc3f170c-303e-47c8-8198-e83f8d50e3b0">
+    <name>СтатусЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус заказа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусЗаказа</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6d4bf3c7-d19b-4ba2-9fd8-3c2c484819b4">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8ebda708-57f5-41f0-8a65-173019a2a3f0">
+    <name>Заказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказКлиента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

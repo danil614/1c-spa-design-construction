@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2422d4fd-9b27-4f28-8a4f-376e2b41f975">
+  <producedTypes>
+    <selectionType typeId="56205132-4680-44c6-ae3e-844f633a79db" valueTypeId="ba624738-e900-4b51-818f-de850d7a8d87"/>
+    <listType typeId="eaa275ad-30ef-4fed-aaad-a96d43c64e91" valueTypeId="f6d8fc5c-fe01-49f1-9128-d16b2c290a26"/>
+    <managerType typeId="89e03478-e9fb-4f94-be45-4ae6db1f7ddc" valueTypeId="5b4691ab-6306-4329-9750-0e04a30d0cc9"/>
+    <recordSetType typeId="4f0e768a-9ea4-4708-9629-a345e4fd5c9b" valueTypeId="844062d3-aecd-4d9b-9370-06321582e3f5"/>
+    <recordKeyType typeId="036d97f9-f5fc-4b78-9ee2-8eb077f6389f" valueTypeId="6e5f23a5-34f2-460d-a830-99bc693b6dd4"/>
+    <recordType typeId="850cb23b-c4ff-47ad-83ad-76291323bfee" valueTypeId="9ce4379e-7780-4f25-8c6e-78794c00158f"/>
+    <recordManagerType typeId="2a2d324c-8d8c-4dcc-9b20-3f1a08ac8e15" valueTypeId="b7cba5ec-9177-4644-98af-8346cd852ac4"/>
+  </producedTypes>
+  <name>ИсторияСтатусовЭтапов</name>
+  <synonym>
+    <key>ru</key>
+    <value>История статусов этапов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="ae1dae3a-c7c6-4d94-88cc-33a3bc12050b">
+    <name>СтатусЭтапа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус этапа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусЭтапа</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="92cf2daf-94b7-455d-af32-af19a3d12649">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ad443b03-eeb0-4839-9fe7-ec4e60853cba">
+    <name>Заказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказКлиента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f5ddc997-ec7e-406e-aafe-cfeb2ea0da79">
+    <name>НомерЭтапа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер этапа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="6f7f49a7-2748-40a8-83cd-9c38a36e5aae">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>
