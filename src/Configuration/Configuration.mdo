@@ -76,4 +76,5 @@
   <informationRegisters>InformationRegister.ИсторияСтатусовЗаказов</informationRegisters>
   <informationRegisters>InformationRegister.ИсторияСтатусовЭтапов</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ДенежныеСредства</accumulationRegisters>
 </mdclass:Configuration>

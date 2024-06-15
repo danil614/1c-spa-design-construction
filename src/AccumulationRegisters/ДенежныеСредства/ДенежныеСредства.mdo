@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8938ac6-333d-429f-bb07-57417a436436">
+  <producedTypes>
+    <selectionType typeId="227977d7-842f-4660-8013-da3312437e79" valueTypeId="7975152f-f11c-4db2-b4f9-2c8be01a5b71"/>
+    <listType typeId="03c9beb9-4a73-4feb-b8e2-2f68f0eea683" valueTypeId="23f0b4e9-4123-4497-97a4-472c56064e76"/>
+    <managerType typeId="2339cf02-52c3-41b1-afca-f4a90d862463" valueTypeId="2bc5565b-ad81-4432-8cbb-e3820d53232b"/>
+    <recordSetType typeId="0ec1ae59-f0e6-48be-b012-ac95435b5c1b" valueTypeId="6f6eb9c9-0f70-4f7b-864e-3b65f1ba1bcf"/>
+    <recordKeyType typeId="0e52600d-00ce-4a38-9390-d2ddf328a467" valueTypeId="aae7d97d-ebc5-40e5-8ef3-3a7fca8f3963"/>
+    <recordType typeId="e4178f3e-a345-434d-ba62-036c06a139a9" valueTypeId="da431391-ce5e-4d42-b1d7-2db7869e8cee"/>
+  </producedTypes>
+  <name>ДенежныеСредства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Денежные средства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="50c8be10-92ac-43b4-b95b-e3ff3619177c">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="0ce2d6d7-da44-4502-b1c1-ca6991f47356">
+    <name>ЗаказКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ клиента</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказКлиента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
