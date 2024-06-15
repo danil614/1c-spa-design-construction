@@ -52,8 +52,11 @@
   <commonPictures>CommonPicture.Маркетинг</commonPictures>
   <commonPictures>CommonPicture.НСИ</commonPictures>
   <commonPictures>CommonPicture.Продажи</commonPictures>
+  <commonModules>CommonModule.ЗапретИзмененияДокументовВызовСервера</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.ПолучениеЦенНоменклатурыВызовСервера</commonModules>
   <commonModules>CommonModule.РасчетСуммыВызовСервера</commonModules>
+  <eventSubscriptions>EventSubscription.КонтрольВводаВПринятыйВРаботуДокумент</eventSubscriptions>
   <constants>Constant.КоличествоДнейДоНачалаЭтапаДляОплаты</constants>
   <catalogs>Catalog.Должности</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>
