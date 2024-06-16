@@ -456,4 +456,48 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="c652d73d-8415-4618-96cd-8e60e0a3767b">
+    <name>ПечатьКоммерческогоПредложения</name>
+  </templates>
+  <templates uuid="dec9115d-2c70-4a64-a48a-d71c53f7a758">
+    <name>ПечатьДоговора</name>
+  </templates>
+  <commands uuid="785376bd-96db-4e14-84c2-87cada47062f">
+    <name>ОтправитьНаЭлектроннуюПочту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправить на электронную почту</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ЗаказКлиента</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="055c19de-1b33-429f-9de0-780d155cf4f6">
+    <name>ПечатьКоммерческогоПредложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать коммерческого предложения</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ЗаказКлиента</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="61b89a83-e8bd-4e8a-b497-48c55ed8ddf3">
+    <name>ПечатьДоговора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать договора</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ЗаказКлиента</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Document>

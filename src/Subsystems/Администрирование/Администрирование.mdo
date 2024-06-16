@@ -16,4 +16,6 @@
     <picture>CommonPicture.Администрирование</picture>
   </picture>
   <content>Constant.КоличествоДнейДоНачалаЭтапаДляОплаты</content>
+  <content>Catalog.УчетныеЗаписиЭлектроннойПочты</content>
+  <content>Constant.ГенеральныйДиректорКомпании</content>
 </mdclass:Subsystem>

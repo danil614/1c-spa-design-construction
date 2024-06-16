@@ -53,13 +53,16 @@
   <commonPictures>CommonPicture.НСИ</commonPictures>
   <commonPictures>CommonPicture.Продажи</commonPictures>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.ОтправкаНаЭлектроннуюПочтуВызовСервера</commonModules>
   <commonModules>CommonModule.ПолучениеЦенНоменклатурыВызовСервера</commonModules>
   <commonModules>CommonModule.РасчетСуммыВызовСервера</commonModules>
+  <constants>Constant.ГенеральныйДиректорКомпании</constants>
   <constants>Constant.КоличествоДнейДоНачалаЭтапаДляОплаты</constants>
   <catalogs>Catalog.Должности</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
   <documents>Document.АктСдачиПриемки</documents>
   <documents>Document.ЗаказКлиента</documents>
   <documents>Document.ОпросКлиента</documents>
