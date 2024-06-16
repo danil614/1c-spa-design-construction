@@ -193,7 +193,7 @@
     </items>
     <items xsi:type="form:FormField">
       <name>ОпросКлиентаКлиент</name>
-      <id>34</id>
+      <id>37</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -204,7 +204,7 @@
       </dataPath>
       <extendedTooltip>
         <name>ОпросКлиентаКлиентРасширеннаяПодсказка</name>
-        <id>36</id>
+        <id>39</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -219,7 +219,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ОпросКлиентаКлиентКонтекстноеМеню</name>
-        <id>35</id>
+        <id>38</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -362,6 +362,52 @@
       <contextMenu>
         <name>СуммаЗаказаКонтекстноеМеню</name>
         <id>32</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Бригада</name>
+      <id>34</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Бригада</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>БригадаРасширеннаяПодсказка</name>
+        <id>36</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>БригадаКонтекстноеМеню</name>
+        <id>35</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -536,7 +582,6 @@
     <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
     <autoMaxRowsCount>true</autoMaxRowsCount>
-    <choiceMode>true</choiceMode>
     <selectionMode>MultiRow</selectionMode>
     <header>true</header>
     <headerHeight>1</headerHeight>
@@ -580,7 +625,6 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
