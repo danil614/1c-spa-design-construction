@@ -58,6 +58,7 @@
   <commonModules>CommonModule.РасчетСуммыВызовСервера</commonModules>
   <constants>Constant.ГенеральныйДиректорКомпании</constants>
   <constants>Constant.КоличествоДнейДоНачалаЭтапаДляОплаты</constants>
+  <catalogs>Catalog.Бригады</catalogs>
   <catalogs>Catalog.Должности</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
@@ -77,6 +78,7 @@
   <reports>Report.СоставУслуг</reports>
   <reports>Report.ТекущиеСтатусыЗаказов</reports>
   <reports>Report.ТекущиеЦеныНоменклатуры</reports>
+  <reports>Report.ЭтапыРаботПоБригадам</reports>
   <informationRegisters>InformationRegister.ИсторияСтатусовЗаказов</informationRegisters>
   <informationRegisters>InformationRegister.ИсторияСтатусовЭтапов</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>

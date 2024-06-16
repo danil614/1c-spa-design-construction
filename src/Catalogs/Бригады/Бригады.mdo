@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d29239d0-eaf6-477a-a0cf-cb323eebb017">
+  <producedTypes>
+    <objectType typeId="0367e413-3c90-4754-b6ac-6a65c7086006" valueTypeId="2749aad3-5973-48af-b35f-2bad2ee331c3"/>
+    <refType typeId="ba645f41-13b0-4116-b09a-cf9f6c570454" valueTypeId="3e2162d4-f06e-4669-aea0-f9d69cce7444"/>
+    <selectionType typeId="7db03acd-fa38-4360-8910-cbb3a38555ea" valueTypeId="7d531093-a028-4aef-abad-206a2663b7bc"/>
+    <listType typeId="5f81b3c7-60df-489f-bdcf-25ce07fff809" valueTypeId="2a09a71c-6065-4ed6-ba7c-9b6f6bc86e1f"/>
+    <managerType typeId="e983aa8e-7770-45f5-9f7b-8a704ee19687" valueTypeId="a19af531-6347-491e-bf00-af2f12f0e77b"/>
+  </producedTypes>
+  <name>Бригады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бригады</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Бригады.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Бригады.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Бригада</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Бригады.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="cc452505-9e36-49e7-aef9-cfa2938937e4">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="694eb3f7-e41b-4bdd-ae07-fec8ab94d560">
+    <producedTypes>
+      <objectType typeId="58c9895b-becb-4e1d-af8f-3110ed62d7a8" valueTypeId="46e4dea9-8059-4e9d-b822-b140de48283e"/>
+      <rowType typeId="df0d1f61-3057-4dbb-908a-cc5e8831cb69" valueTypeId="f553431f-8ac9-4be9-9e08-550f6ede16d9"/>
+    </producedTypes>
+    <name>СписокСотрудников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список сотрудников</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <attributes uuid="b67009c2-d9bd-4708-b589-d2d203bd80fe">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="f5bc4218-bbf0-4a37-8fd5-fc2f809ccf7e">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

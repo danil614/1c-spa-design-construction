@@ -14,4 +14,5 @@
   <content>Catalog.Сотрудники</content>
   <content>Catalog.Клиенты</content>
   <content>Catalog.Номенклатура</content>
+  <content>Catalog.Бригады</content>
 </mdclass:Subsystem>

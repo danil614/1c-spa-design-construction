@@ -15,4 +15,5 @@
   <content>Document.ПлатежныйДокумент</content>
   <content>Document.АктСдачиПриемки</content>
   <content>Report.ТекущиеСтатусыЗаказов</content>
+  <content>Report.ЭтапыРаботПоБригадам</content>
 </mdclass:Subsystem>
